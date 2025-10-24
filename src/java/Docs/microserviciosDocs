@@ -1,1 +1,56 @@
+En este documento se detalla la separacion de los microservicios para el proyecto en cuestion
+
+Usuario servicio:
+    Este microservicio se va a encargar de gestionar a los usuarios dentro del sistema.
+
+    RF01. El sistema debe permitir el registro solicitando nombre completo, número de 
+        identificación, edad, datos de contacto y contraseña.
+    RF13. El sistema debe permitir a los usuarios actualizar su información personal de 
+        manera segura haciendo uso de la contraseña. 
+    
+
+Acceso servicio:
+    Este microservicio se va a encargar de los accesos dentro del sistema.
+
+    RF12. Los usuarios deben poder iniciar sesión con cuentas de redes sociales para facilitar 
+        su ingreso a la plataforma.
+
+
+Campaña servicio:
+    Este microservicio se va a encargar de gestionar a las campañas dentro del sistema.
+
+    RF06. El sistema debe permitir al administrador aprobar o eliminar publicaciones con 
+        contenido inapropiado
+    RF11. Los sueños cumplidos deberán publicarse en una sección especial para aumentar la 
+        confianza de donadores e inversionistas.
+    RF15. El sistema debe permitir a los adultos mayores editar la descripción, imágenes o 
+        videos de sus campañas únicamente mientras no haya recibido ninguna donación.
+    RF18. El sistema debe permitir a los donadores marcar campañas como “favoritas” para 
+        facilitar su seguimiento y acceso rápido en futuras sesiones.
+    RF19. El sistema debe permitir a los adultos mayores compartir el enlace de sus campañas 
+        en redes sociales directamente desde la plataforma.
+
+Donacion servicio:
+    Este microservicio se va a encargar de la gestion de las donaciones.
+
+    RF03. El sistema debe permitir realizar donaciones de dinero usando medios de pago 
+        electrónicos
+    RF04. El sistema debe enviar al donador un comprobante donde confirme su donación.
+    RF14. El sistema debe permitir guardar un método de pago como predeterminado para 
+        agilizar futuras donaciones.
+    RF20. El sistema debe permitir a los donadores optar por realizar donaciones anónimas, 
+        ocultando su identidad en la campaña pública.
+
+Notificacion servicio:
+    este servicio se encargar de administrar y en viar las notificaciones del sistema a los usuarios.
+    
+    RF02. El sistema debe permitir enviar un correo electrónico de confirmación después de 
+        completar el registro.
+    RF07. El sistema debe permitir enviar advertencias por medio de notificaciones a usuarios 
+        que incumplan las condiciones de servicio.
+    RF08. El sistema debe enviar notificación al adulto mayor cuando su publicación sea 
+        aprobada.
+    RF09. El sistema debe informar al adulto mayor cada vez que reciba un aporte.
+    RF10. El sistema debe felicitar al adulto mayor e informar a los donadores cuando la 
+        campaña llegue al 100%.
 
